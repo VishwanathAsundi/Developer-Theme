@@ -95,13 +95,7 @@ a.btn-cta-secondary:hover, .btn-cta-secondary:hover {
   background: #3AAA64;
   font-size: 12px;
   color: #fff;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -o-border-radius: 2px;
   border-radius: 2px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
 
@@ -130,7 +124,7 @@ a.dotted-link:hover {
 .header .profile-image {
   margin-right: 30px;
   width: 200px;
-  height:auto;
+  height: auto;
   border-radius: 50%;
 }
 
@@ -155,13 +149,7 @@ a.dotted-link:hover {
   width: 36px;
   height: 36px;
   display: inline-block;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
   background-clip: padding-box;
   color: #fff;
   text-align: center;
@@ -389,7 +377,6 @@ a.dotted-link:hover {
 .ghfeed *:before,
 .ghfeed *:after {
   -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
 
@@ -669,3 +656,4 @@ a.dotted-link:hover {
     max-width: inherit;
   }
 }
+/*# sourceMappingURL=styles.css.map */
