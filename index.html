@@ -43,6 +43,7 @@
 </head> 
 
 <body>
+    
     <!-- ******HEADER****** --> 
     <header class="header starlight">
         <div class="container clearfix">                       
@@ -70,7 +71,7 @@
                     <div class="section-inner">
                         <h2 class="heading">About Me</h2>
                         <div class="content">
-                            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enthusiastic Software developer with outstanding technical and professional skills. Have 1+ years of experience as a front end developer in a startup environment. Currenty working at Crypsis Technologies. Passionate about transforming art of design into a pixel perfect code. Ease and willingness to learn, good interpersonal relationship skills, responsible, creative, organized, ability to make tough jobs quickly, interest in professional development, experience in the field of coding and managing , leadership and decision making.</p>
+                            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enthusiastic Software developer with outstanding technical and professional skills. Have 1.5+ years of experience as a front end developer in a startup environment. Currenty working at Crypsis Technologies. Passionate about transforming art of design into a pixel perfect code. Ease and willingness to learn, good interpersonal relationship skills, responsible, creative, organized, ability to make tough jobs quickly, interest in professional development, experience in the field of coding and managing , leadership and decision making.</p>
                          
                         </div><!--//content-->
                     </div><!--//section-inner-->                 
@@ -361,7 +362,8 @@
         </div><!--//container-->
     </footer><!--//footer-->
  
-    <!-- Javascript -->          
+    <!-- Javascript -->   
+        
     <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
     <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
@@ -376,8 +378,33 @@
     </script>
     <!-- custom js -->
     <script type="text/javascript" src="assets/js/main.js"></script>  
-    <script type="text/javascript" src="assets/js/starlight.js"></script>       
+    <script type="text/javascript" src="assets/js/starlight.js"></script>    
     
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+            //   appId: '615778582570801',
+              autoLogAppEvents: true,
+              xfbml: true,
+              version: 'v5.0'
+            });
+            FB.CustomerChat.show();
+          };
+        
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>  
+    <div class="fb-customerchat"
+        page_id="102690951232294"
+        attribution="setup_tool"
+        theme_color="#3498DB"
+    >
+</div>
 
 </body>
 </html> 
