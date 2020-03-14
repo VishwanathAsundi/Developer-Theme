@@ -34,7 +34,7 @@ jQuery(document).ready(function($) {
         // how many entries do you want?
         // default: 4
         // valid values: any integer
-        limit: 3,
+        limit: 5,
         
         // the effect, which is used to let the entries appear
         // default: 'show'
@@ -64,7 +64,7 @@ jQuery(document).ready(function($) {
     
     
     /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
-    GitHubActivity.feed({ username: "mdo", selector: "#ghfeed" });
+    GitHubActivity.feed({ username: "VishwanathAsundi", selector: "#feed",limit:5 });
 
 
 });
