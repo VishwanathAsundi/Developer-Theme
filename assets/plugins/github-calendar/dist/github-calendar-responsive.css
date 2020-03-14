@@ -1,10 +1,11 @@
 .calendar {
     font-family: Helvetica, arial;
-    border: 1px solid #DDDDDD;
-    border-radius: 3px;
-    min-height: 243px;
+    /* border: 1px solid #DDDDDD;
+    border-radius: 3px; */
+    min-height: 300px;
     text-align: center;
     margin: 0 auto;
+    width:100%;
 }
 
 .calendar-graph text.wday,
@@ -14,7 +15,7 @@
 }
 
 .contrib-legend {
-    text-align: right;
+    text-align: left;
     padding: 0 14px 10px 0;
     display: inline-block;
     float: right;

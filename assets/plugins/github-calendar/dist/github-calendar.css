@@ -1,8 +1,8 @@
 .calendar {
-    width: 750px;
+    width: 100%;
     font-family: Helvetica, arial;
-    border: 1px solid #DDDDDD;
-    border-radius: 3px;
+    /* border: 1px solid #DDDDDD;
+    border-radius: 3px; */
     min-height: 243px;
     text-align: center;
     margin: 0 auto;
@@ -15,8 +15,9 @@
 }
 
 .contrib-legend {
-    text-align: right;
+    text-align: left;
     padding: 0 14px 10px 0;
+    margin-left:10px;
     display: inline-block;
     float: right;
 }
@@ -43,15 +44,16 @@
 
 .calendar-graph {
     padding: 5px 0 0;
-    height: 126px;
+    height: 110px;
     text-align: center;
 }
 
 .contrib-column {
     padding: 15px 0;
     text-align: center;
-    border-left: 1px solid #ddd;
-    border-top: 1px solid #ddd;
+    border:0 !important;
+    /* border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd; */
     font-size: 11px;
 }
 
@@ -124,4 +126,7 @@ h2.f4.text-normal.mb-3 {
 }
 #user-activity-overview{
     display:none;
+}
+.graph-before-activity-overview{
+    border:0 !important;
 }
