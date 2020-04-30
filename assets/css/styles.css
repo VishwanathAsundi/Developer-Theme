@@ -232,9 +232,10 @@ a.dotted-link:hover {
 }
 
 .latest .item .project-image:hover {
-  -webkit-opacity: 0.8;
+  /* -webkit-opacity: 0.8;
   -moz-opacity: 0.8;
-  opacity: 0.8;
+  opacity: 0.8; */
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 }
 
 .latest .divider {
@@ -662,6 +663,7 @@ a.dotted-link:hover {
   }
   .project-image {
     margin-bottom: 15px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
   }
 }
 
