@@ -100,7 +100,8 @@ a.dotted-link {
     .profile-image {
         margin-right: 30px;
         width:200px;
-        height:auto;
+        height:200px;
+        object-fit: contain;
         border-radius: 50%;
     }
     .profile-content {
