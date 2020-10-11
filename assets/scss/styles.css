@@ -186,6 +186,9 @@ a.dotted-link:hover {
 .section {
   margin-bottom: 30px;
 }
+.section:hover {
+  transform: scale(1.5);
+}
 
 .section .section-inner {
   background: #fff;
